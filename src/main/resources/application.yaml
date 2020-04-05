@@ -9,3 +9,10 @@ spring:
           uri: https://github.com/Shivamohan07/microservices-config-server
           #username: user
           #password: pass
+          searchPaths: component*
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/Shivamohan07/microservices-config-server-perf
+              searchPaths: component*
